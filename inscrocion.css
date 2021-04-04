@@ -1,0 +1,257 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box #434e9f;
+}
+body{
+    background-color: #FFF;
+}
+header{
+    display: flex;
+    height: 100px;
+    background-color: #000;
+}
+.titulo{
+    height: 100px;
+    width: 50%;
+}
+.titulo h1{
+    text-align: left;
+    font-size: 35px;
+    color: #FFF;
+    line-height: 100px;
+}
+.portada h1{
+    text-align: center;
+    font-size: 35px;
+    color: #00FF00;
+    line-height: 80px;
+}
+nav{
+    height: 50px;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+nav li {
+    list-style: none;
+}
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 20px;
+    line-height: 80px;
+    color: #fff;
+    border-left: 1px solid rgba(255,255,255,.2);
+    text-shadow: 1px 1px 0px rgba(0,0,0,.3);
+}
+header li a:first-child{
+    border-left: none;
+}
+
+header li a:hover{
+    background: rgba(0,0,0,.3) ;
+    border-right: 1px solid transparent;
+    border-left: 1px solid transparent;
+    border-bottom: none;
+}
+section{
+    width: 80%;
+    display: block;
+    padding-top: 2%;
+    margin: auto;
+}
+@keyframes banner {
+   
+}
+main{
+    margin: auto;
+    padding-top: 2%;
+    margin-bottom: 2%;
+}
+.contactos{
+    display: flex;
+    margin: auto;
+    height: auto;
+}
+.infor{
+    background: url(Im%C3%A1gen%20N%C2%B03.jpg);
+    background-size: cover;
+    width: 40%;
+    flex-flow: column;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    text-align: center;
+    border-radius: 50px 0px 0px 50px;
+    margin-bottom: 50px;
+}
+
+.infor a{
+    text-decoration: none;
+    
+}
+.icon-user-circle-o{
+    color: #fff;
+    font-size: 150px; 
+}
+.infor h1{
+    font-size: 35px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 15px;
+    color: #fff;
+    font-family: fantasy;
+}
+
+.infor li{
+    list-style: none;
+    height: 40px;
+    
+}
+.infor li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+.infor li span {
+    font-size: 30px;
+}
+form{
+    width: 85%;
+    margin-bottom: 4%;
+    padding: 6% 7%;
+    margin-bottom: 50px;
+    background: chartreuse;
+    
+    
+}
+
+input{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 20pz;
+}
+
+#boton{
+    background: red;
+    color: #fff;
+    padding: 20px;
+    text-align: 10px;
+}
+#boton:hover{
+    cursor: pointer;
+    background: #31384A
+}
+.texto{
+    background-color: DarkOliveGreen;
+    padding: 20px;
+
+}
+.texto p{
+    text-align: justify;
+    color: #fff;
+}
+main h1{
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 15px;
+}
+.modelos{
+    display: flex;
+    padding-top: 20px;
+    margin: auto;
+}
+.articulos{
+    width: 70%;
+
+}
+.articulos article{
+    display: flex;
+    padding: 15px;
+    margin-bottom: 2%;
+    background-color: gray;
+}
+.articulos article img{
+    width: 40%;
+}
+.articulos article p{
+    width: 70%;
+    text-align: justify;
+    padding: 15px;
+    color: #fff;
+}
+.social {
+    position: fixed;
+    left: 0;
+    top: 50%;
+    z-index: 1;
+    list-style: none;
+}
+.social li a {
+    display: inline-block;
+    color: #fff;
+    background: #000;
+    padding: 10px 15px;
+    text-decoration: none;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.social li .icon-facebook-official {
+    background: #3b5998;
+}
+.social li .icon-instagram {
+    background: linear-gradient(
+                purple 5%,
+                orange 100%,
+                red 0%
+    );
+}
+
+.social li .icon-whatsapp {
+    background:  #25D366;
+}
+.social li .icon-pinterest {
+    background:  rgb(211, 37, 37);
+}
+
+.social li a:hover {
+    padding: 10px 30px;
+    background: #000;
+}
+footer{
+    background-image: url(./footer/4049123.jpg);
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow:hidden;
+}
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding: 50px;
+    border-bottom: 1px solid #ccc;
+}
+.content-foo{
+    text-align: center;
+}
+.content-foo h4{
+    color: #fff;
+    border-bottom: 3px solid #af20d3;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+.content-foo p{
+    color: #ccc;
+}
+.titulo-final{
+    text-align: center;
+    font-size: 24px;
+    margin:20px 0 0 0;
+    color: #9e9797;
+}
